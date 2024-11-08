@@ -1,0 +1,265 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* overflow-x: scroll;
+    overflow-y:  hidden; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: 'font1';
+    src: url('Emiken\ Display.otf');
+  }
+  @font-face {
+    font-family: 'font2';
+    src: url('Extros Backstage.ttf');
+  }
+  @font-face {
+    font-family: 'font3';
+    src: url('batmfa__.ttf');
+  }
+  @font-face {
+    font-family: 'font4';
+    src: url('Game Of Squids.ttf');
+  }
+
+.image img{
+    /* width: 15px; */
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 5px;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.navbar{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+/* .navi{
+    position: sticky;
+} */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    background: rgb(65, 134, 126,0.9);
+    /* padding: 4px; */
+    align-items: center;
+    height: 45px;
+    /* justify-content: center; */
+}
+
+.nav-list li{
+    list-style: none;
+    /* padding: 15px; */
+    margin: 20px;
+  margin-top: 25px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(102, 61, 61);
+}
+
+.background{
+    /* position: sticky; */
+    background: rgba(47, 95, 89, 0.9) url(images/block.jpeg);
+    background-size: cover ;
+    background-blend-mode: darken;
+}
+
+.homecontainer{
+    height: 100vh;
+}
+
+.mainpara{
+    font-family:"Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 18px;
+}
+.text-para{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.text-para img{
+    height: 20%;
+    width: 17%;
+}
+
+.text-para h1{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-family: font1;
+    font-size: 80px;
+}
+
+.text-para h4{
+    /* font-family: font1; */
+    position: absolute;
+    /* position: sticky; */
+    top: 15%;
+    left: 25%;
+    font-size: 25px;
+}
+
+.knowme{
+    padding: 7px;
+    /* text-decoration:none ;
+    list-style: none; */
+    margin: 10px;
+    border: 2px solid rgb(39, 255, 255);
+    border-radius: 7px;
+    background-color: rgb(111, 159, 179);
+}
+
+.knowme a{
+    text-decoration:none ;
+    /* list-style: none; */
+    font-family: font3;
+    color:rgb(39, 255, 255);
+    
+
+}
+
+.exppro{
+    padding: 7px;
+    /* text-decoration:none ;
+    list-style: none; */
+    margin: 10px;
+    border: 2px solid rgb(39, 255, 255);
+    border-radius: 7px;
+    background-color: rgb(111, 159, 179);
+}
+
+.exppro a{
+    text-decoration:none ;
+    /* list-style: none; */
+    font-family: font3;
+    color:rgb(39, 255, 255);
+    
+
+}
+
+.mail a{
+    position: absolute;
+    bottom: 15px;
+    left: 70%;
+    color: rgb(136, 186, 205);
+}
+
+.mail a:hover{
+   color:wheat;
+}
+
+.aboutpagecontainer{
+    /* background: conic-gradient(#0c5364, #0c2b38);     */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin-left:15% ;
+}
+
+.aboutimage{
+    margin-top: 5px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.headingh1{
+    font-family: font3;
+}
+
+/* .projectcontainer{ 
+    height: 100vh; 
+    position: relative;
+    left: 20%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Projects{   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} */
+
+.resumecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid black; */
+}
+ 
+.resumecontainer img{
+    border: 5px solid rgb(102, 96, 96);
+    border-radius: 5px;
+}
+
+.contactpage{
+    position: absolute; 
+   left: 25%;
+   /* transform:translate(-50%,-50%); */
+    /* background: url(images/block.jpeg); */
+    width: 100%;
+    height: 100%;
+  }
+.contactpage h1{
+    position: absolute;
+    left: 20%;
+}
+.registration_form{
+   margin: 40px; 
+   /* position: fixed;  */
+}
+.registration_form p{
+    font-size: 20px;
+    margin: 15px;
+}
+.registration_form input{
+    padding: 15px 10px;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.registration_form button{
+    position: absolute;
+    left: 19%;
+    top: 61%;
+    font-size: 20px;
+  font-style: bold;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px 10px;
+  width: 10%;
+  border:2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+ 
+}
+
